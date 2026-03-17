@@ -6,9 +6,12 @@
         <span class="anchor" id="c{data.uid}"></span>
         <div class="ot-sitekit-ce-imgtextoverlay-bg-image">
             <f:if condition="{images.0}">
-                <skc:atom.image image="{images.0}" class="img-fluid"
-                                showCaption="false"
-                                loading="lazy" />
+                <skc:atom.image
+                    image="{images.0}"
+                    class="img-fluid"
+                    showCaption="false"
+                    loading="lazy"
+                    alt="{images.alternative}"/>
             </f:if>
         </div>
         <div class="ot-sitekit-ce-imgtextoverlay-overlay">
